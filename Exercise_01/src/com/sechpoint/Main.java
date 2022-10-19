@@ -3,19 +3,19 @@ package com.sechpoint;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Array {
+public class Main {
 	public static void main(String[] args) {
 		List<String> elements = new ArrayList<String>();
 		
-		elements.add("Red");
-		elements.add("Green");
-		elements.add("Orange");
-		elements.add("White");
-		elements.add("Black");
+		elements.add("One");
+		elements.add("Two");
+		elements.add("3");
+		elements.add("Four");
+		elements.add("Five");
 		
 		System.out.println(elements);
 		
-		elements.set(2, "Yellow");
+		elements.set(2, "Three");
 		
 	  	System.out.println(elements);
 	}
