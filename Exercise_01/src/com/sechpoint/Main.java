@@ -17,6 +17,7 @@ public class Main {
 		
 		elements.set(2, "Three");
 		
+		System.out.println(elements.get(2));
 	  	System.out.println(elements);
 	}
 }
